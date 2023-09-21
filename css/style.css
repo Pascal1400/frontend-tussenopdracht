@@ -1,23 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@400&family=Oswald&display=swap');
 
 body {
-    background-color: #383838;
-    font-family: 'Oswald', sans-serif;
+    background-color: #101B27;
+    font-family: 'Assistant', sans-serif;
     margin: 0px;
+    color: #d1d4dc;
 }
 
-#logo {}
+.logoPlaatje {
+    margin-right: 1rem;
+}
 
 nav {
     display: flex;
     flex-direction: row;
-    background-color: #3d55cc;
+    background-color: #233448;
     font-size: 1rem;
-    padding: 1.5rem 4rem;
+    padding: 0.8rem 4rem;
+    border-bottom: 0.1rem solid #000000;
 }
 
 nav a {
-    color: #ffffff;
+    color: #d1d4dc;
     text-decoration: none;
     padding: 1rem;
     margin: 0rem;
